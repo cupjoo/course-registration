@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import "./RegistrationTemplate.css";
 
-const RegistrationTemplate = ({ basketItems, courseItems }) => {
+const RegistrationTemplate = ({ basketItems, courseItems, total }) => {
   return (
     <div className="layout-default">
       <nav className="navbar navbar-expand-lg navbar-light 
@@ -27,7 +27,7 @@ const RegistrationTemplate = ({ basketItems, courseItems }) => {
           <section className="basket-box">
             <div className="section-title">
               <h2>
-                <span>장바구니 목록</span>
+                <span>장바구니 목록 ({total})</span>
               </h2>
             </div>
             {basketItems}

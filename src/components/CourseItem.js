@@ -1,9 +1,11 @@
 import React, { Fragment } from "react";
 import CardItem from "./CardItem";
 
-const CourseItem = ({ item }) => {
+const CourseItem = ({ item, onPut }) => {
   const regBtn = (
-    <button className="btn btn-primary">수강 신청하기</button>
+    <button className="btn btn-primary" 
+      onClick={() => onPut(item.title)}>수강 신청하기
+    </button>
   );
   return (
     <Fragment>
