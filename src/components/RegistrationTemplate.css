@@ -1,0 +1,62 @@
+.head-navigation {
+  background: rgba(255, 255, 255, 0.97);
+  background-color: rgba(255, 255, 255, 0.97);
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.15);
+  transition: top 0.2s ease-in-out;
+}
+.head-navigation img {
+  max-height: 30px;
+  padding-right: 15px;
+  padding-bottom: 8px;
+}
+.head-navigation h4 {
+  display: inline;
+}
+
+.site-content {
+  min-height: 60vh;
+  padding-top: .01rem;
+  margin-top: 57px;
+  transition: all 0.4s;
+}
+
+.section-title h2 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-bottom: 27px;
+}
+
+.section-title span {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.44);
+  display: inline-block;
+  padding-bottom: 20px;
+  margin-bottom: -1px;
+}
+
+.main-heading {
+  margin: 2rem 0;
+}
+
+.main-heading h2 {
+  transition: all 0.2s;
+  color: #1eb980;
+}
+
+.course-box {
+  margin-top: 5rem;
+}
+
+.footer {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-top: 1px solid rgba(0, 0, 0, 0.05) !important;
+  padding-top: 15px;
+  padding-bottom: 12px;
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.44);
+  margin-top: 50px;
+  position: relative;
+  background: #fff;
+}
