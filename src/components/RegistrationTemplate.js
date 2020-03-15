@@ -1,5 +1,6 @@
 import React from "react";
-import './RegistrationTemplate.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import "./RegistrationTemplate.css";
 
 const RegistrationTemplate = ({ basketItems, courseItems }) => {
@@ -49,6 +50,7 @@ const RegistrationTemplate = ({ basketItems, courseItems }) => {
                   href="https://cupjoo.github.io">오지는 컴퓨터 공부</a>
                 </div>
                 <div className="col-md-6 col-sm-6 text-center text-lg-right">
+                  <FontAwesomeIcon icon={faGithub}/>
                   <a className="ml-1" target="_blank" rel="noopener noreferrer" 
                     href="https://github.com/cupjoo/course-registration">
                     View on GitHub
